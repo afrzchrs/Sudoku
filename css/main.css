@@ -1,0 +1,120 @@
+/* Global styles */
+body {
+    background:
+        linear-gradient(rgba(56, 49, 49, 0.7), rgba(77, 65, 65, 0.8)),
+        url('../assets/images2.jpeg') center/cover no-repeat fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling Header */
+.header {
+    text-align: center;
+    margin: 30px 0;
+    padding: 40px 0 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #dccbcb;
+    text-shadow: 2px 2px 4px rgba(139, 116, 116, 0.1);
+    margin-bottom: 10px;
+}
+
+/* Card container */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Stying Card */
+.card {
+    width: 18rem;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #2c3e50;
+}
+/* Button Styling */
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 24px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    padding-left: 13%;
+    padding-top: 15%;
+    gap: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+thead.table-dark th {
+  color: #fff;
+  background-color: #343a40;
+}

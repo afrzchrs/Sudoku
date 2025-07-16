@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SUDOKU RUSH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Sudoku Rush</h1>
+    </div>
+
+    <div class="flex-container">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/images.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Easy.</h5>
+                <p class="card-text">Easy.....</p>
+                <a href="easySudoku.html" class="btn btn-primary">Start Solving</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="assets/download.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mediocre.</h5>
+                <p class="card-text">For All people.</p>
+                <a href="mediumSudoku.html" class="btn btn-primary">Start Solving</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="assets/consciousness-709143-400x300.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Genius.</h5>
+                <p class="card-text">Nah.. I quit.</p>
+                <a href="hardSudoku.html" class="btn btn-primary">Start Solving</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 style="color: aqua;">🏆 Leaderboard</h2>
+
+        <select id="difficultySelect" class="form-select mb-3" style="width: 200px;">
+            <option value="Easy">Easy</option>
+            <option value="Mediocre">Mediocre</option>
+            <option value="Genius">Genius</option>
+        </select>
+
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Nama</th>
+                    <th>Waktu</th>
+                    <th>Difficulty</th>
+                    <th>Dicatat Pada</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard-body">
+                <!-- Data leaderboard masuk di sini -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

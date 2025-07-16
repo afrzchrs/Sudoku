@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku 9×9 Board</title>
+    <link rel="stylesheet" href="css\sudoku.css">
+</head>
+
+<body>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="sudoku-board"></div>
+
+            <div class="panel">
+                <div class="difficulty">Difficulty: Mediocre</div>
+                <div class="timer" id="timer">00:00:00</div>
+                <button class="btn btn-finish" onclick="checkPuzzle()">Selesai</button>
+                <a class="exitButton" href="main.html" role="button">Back</a>
+            </div>
+        </div>
+
+        <div id="congratulationModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="userName"></p>
+                <p>Sudoku selesai dengan benar!</p>
+                <p id="timeSpent"></p>
+            </div>
+        </div>
+
+        <script src="js\mediocre.js"></script>
+
+    </body>
+
+</html>
