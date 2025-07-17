@@ -6,3 +6,4 @@
 5. Run Apache yang ada di XAMPP.
 6. Akses http://localhost/SudokuWeb/main.html di browser anda.
 7. Aplikasi sudah bisa dijalankan.
+8. Atau bisa mengakses link taupe-cucurucho-41b4e1.netlify.app
